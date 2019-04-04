@@ -1,0 +1,11 @@
+if (Test-Path "C:\Program Files (x86)\Agilent Technologies\ECM Application Service\logs") { 
+        Copy-Item "C:\Program Files (x86)\Agilent Technologies\ECM Application Service\logs" -Destination "C:\Temp2\AppLogs" -Recurse
+} else {
+    Write-Host ("THIS AINT THERE")
+}
+ 
+
+
+}
+
+
