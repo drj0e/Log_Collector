@@ -1,0 +1,1 @@
+Powershell.exe -Command "& {Start-Process Powershell.exe -ArgumentList '-ExecutionPolicy Bypass -File C:\ECM_COLLECTION\ECM_logs01.ps1' -Verb RunAs}"
